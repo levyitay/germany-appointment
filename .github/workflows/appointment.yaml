@@ -25,7 +25,8 @@ jobs:
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
           CYPRESS_FROM_COUNTRY: Israel
           CYPRESS_FM_FROM_UE: No
-          CYPRESS_REQUEST_OPTION: "Residence permit specialists with vocational training (section 18a)"
+          CYPRESS_REQUEST_OPTION: "Residence permit for specialists with vocational training (section 18a)"
+                                   
 
           #Form data
           CYPRESS_FIRST_NAME: "AMIT"
