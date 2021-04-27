@@ -6,17 +6,18 @@
   "env": {
     "FAIL_FAST": true,
 
-    "FROM_COUNTRY": "Brazil",
+    "FROM_COUNTRY": "Israel",
     "FM_FROM_UE": "No",
-    "REQUEST_OPTION": "Residence permit to attend a language course (section 16f)",
+    "REQUEST_OPTION": "Residence permit specialists with vocational training (section 18a)",
 
-    "FIRST_NAME": "Your First name",
-    "LAST_NAME": "Your Last Name",
+    "FIRST_NAME": "Amit",
+    "LAST_NAME": "Levy",
     "BIRTHDAY_DAY": 1,
-    "BIRTHDAY_MONTH": 2,
-    "BIRTHDAY_YEAR": 2000,
-    "EMAIL": "your@email.com",
+    "BIRTHDAY_MONTH": 7,
+    "BIRTHDAY_YEAR": 1988,
+    "EMAIL": "amitcdo@gmail.com",
     "NUMBER_OF_APPLICANTS": 1,
-    "HAS_RESIDENT_PERMITTED": "No"
+    "HAS_RESIDENT_PERMITTED": "YES",
+    "CYPRESS_RESIDENT_ID":"F7038495"
   }
 }
