@@ -58,9 +58,11 @@ describe('Opening personal data page', () => {
 
         cy.get('select[name="cobGenehmigungBereitsVorhanden"]').select(Cypress.env('HAS_RESIDENT_PERMITTED').toString())
         
-        cy.get('#tfEtNr').type(Cypress.env('CYPRESS_RESIDENT_ID'))
     })
+    it ('Fill Resident Card ID', () => {
+        cy.get('#tfEtNr').type(Cypress.env('CYPRESS_RESIDENT_ID'))
 
+    })
     it('Go to next step', () => {
         cy.get('#txtNextpage').click()
     })
