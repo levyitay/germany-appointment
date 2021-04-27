@@ -23,19 +23,20 @@ jobs:
           record: ${{ contains(secrets.CYPRESS_RECORD_KEY, '-') }}
         env:
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
-          CYPRESS_FROM_COUNTRY: Brazil
+          CYPRESS_FROM_COUNTRY: Israel
           CYPRESS_FM_FROM_UE: No
-          CYPRESS_REQUEST_OPTION: "Residence permit to attend a language course (section 16f)"
+          CYPRESS_REQUEST_OPTION: "Residence permit specialists with vocational training (section 18a)"
 
           #Form data
-          CYPRESS_FIRST_NAME: "Your First name"
-          CYPRESS_LAST_NAME: "Your Last Name"
+          CYPRESS_FIRST_NAME: "AMIT"
+          CYPRESS_LAST_NAME: "LEVY"
           CYPRESS_BIRTHDAY_DAY: 1
-          CYPRESS_BIRTHDAY_MONTH: 2
-          CYPRESS_BIRTHDAY_YEAR: 2000
-          CYPRESS_EMAIL: your@email.com
+          CYPRESS_BIRTHDAY_MONTH: 7
+          CYPRESS_BIRTHDAY_YEAR: 1998
+          CYPRESS_EMAIL: amitcdo@gmail.com
           CYPRESS_NUMBER_OF_APPLICANTS: 1
-          CYPRESS_HAS_RESIDENT_PERMITTED: No
+          CYPRESS_HAS_RESIDENT_PERMITTED: Yes
+          CYPRESS_RESIDENT_ID: F7038495
 
       - name: Screenshots
         uses: actions/upload-artifact@v2
