@@ -57,6 +57,8 @@ describe('Opening personal data page', () => {
         cy.get('#tfMail').type(Cypress.env('EMAIL'))
 
         cy.get('select[name="cobGenehmigungBereitsVorhanden"]').select(Cypress.env('HAS_RESIDENT_PERMITTED').toString())
+        
+        cy.get('#tfEtNr').type(Cypress.env('CYPRESS_RESIDENT_ID'))
     })
 
     it('Go to next step', () => {
