@@ -29,8 +29,8 @@ docker-compose run --rm cypress yarn cy:run
 
 [cypress_badge]: https://img.shields.io/endpoint?url=https://dashboard.cypress.io/badge/detailed/bndqcj/master&style=flat&logo=cypress
 [cypress_link]: https://dashboard.cypress.io/projects/bndqcj/runs
-[test_badge]: https://github.com/eerison/germany-appointment/workflows/Looking%20for%20an%20appointment/badge.svg?branch=master
-[test_link]: https://github.com/eerison/germany-appointment/actions?query=workflow%3A%22Looking+for+an+appointment%22+branch%3Amaster
+[test_badge]: https://github.com/levyitay/germany-appointment/workflows/Looking%20for%20an%20appointment/badge.svg?branch=master
+[test_link]: https://github.com/levyitay/germany-appointment/actions?query=workflow%3A%22Looking+for+an+appointment%22+branch%3Amaster
 [licence_badge]: https://img.shields.io/badge/License-MIT-yellow.svg
-[licence_link]: https://github.com/eerison/germany-appointment/blob/master/LICENSE
+[licence_link]: https://github.com/levyitay/germany-appointment/blob/master/LICENSE
 [berlin_form_link]: https://formular.berlin.de/xima-forms-29/get/14963116144270000?mandantid=/OTVBerlin_LABO_XIMA/000-01/instantiationTasks.properties
