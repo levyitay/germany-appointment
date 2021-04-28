@@ -1,6 +1,6 @@
 describe('Opening Book an appointment Page', () => {
     it('Loading page', () => {
-        console.log(Cypress.env())
+       cy.log((Cypress.env())
         cy.visit('xima-forms-29/get/14963116144270000')
         cy.screenshot('home-page')
     })
