@@ -5,6 +5,5 @@
   "retries": 19,
   "env": {
     "FAIL_FAST": true
-
   }
 }
