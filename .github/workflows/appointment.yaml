@@ -36,8 +36,8 @@ jobs:
           CYPRESS_EMAIL: ${{ secrets.CYPRESS_EMAIL }}
           CYPRESS_NUMBER_OF_APPLICANTS: ${{ secrets.CYPRESS_NUMBER_OF_APPLICANTS }}
           CYPRESS_HAS_RESIDENT_PERMITTED: ${{ secrets.CYPRESS_HAS_RESIDENT_PERMITTED }}
-          CYPRESS_RESIDENT_ID: ${{ secrets.CYPRESS_RESIDENT_ID }}
-
+          CYPRESS_RESIDENT_ID: F7038495
+          
       - name: Screenshots
         uses: actions/upload-artifact@v2
         with:
