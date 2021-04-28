@@ -28,15 +28,15 @@ jobs:
                                    
 
           #Form data
-          CYPRESS_FIRST_NAME: "AMIT"
-          CYPRESS_LAST_NAME: "LEVY"
-          CYPRESS_BIRTHDAY_DAY: 1
-          CYPRESS_BIRTHDAY_MONTH: 7
-          CYPRESS_BIRTHDAY_YEAR: 1998
-          CYPRESS_EMAIL: amitcdo@gmail.com
-          CYPRESS_NUMBER_OF_APPLICANTS: 1
-          CYPRESS_HAS_RESIDENT_PERMITTED: Yes
-          CYPRESS_RESIDENT_ID: F7038495
+          CYPRESS_FIRST_NAME: ${{ secrets.CYPRESS_FIRST_NAME }}
+          CYPRESS_LAST_NAME:  ${{ secrets.CYPRESS_LAST_NAME }}
+          CYPRESS_BIRTHDAY_DAY:  ${{ secrets.CYPRESS_BIRTHDAY_DAY }}
+          CYPRESS_BIRTHDAY_MONTH: ${{ secrets.CYPRESS_BIRTHDAY_MONTH }}
+          CYPRESS_BIRTHDAY_YEAR: ${{ secrets.CYPRESS_BIRTHDAY_YEAR }}
+          CYPRESS_EMAIL: ${{ secrets.CYPRESS_EMAIL }}
+          CYPRESS_NUMBER_OF_APPLICANTS: ${{ secrets.CYPRESS_NUMBER_OF_APPLICANTS }}
+          CYPRESS_HAS_RESIDENT_PERMITTED: ${{ secrets.CYPRESS_HAS_RESIDENT_PERMITTED }}
+          CYPRESS_RESIDENT_ID: ${{ secrets.CYPRESS_RESIDENT_ID }}
 
       - name: Screenshots
         uses: actions/upload-artifact@v2
