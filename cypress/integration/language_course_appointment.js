@@ -92,7 +92,7 @@ describe('Date selection page', () => {
         })
 
         monthPage++;
-    } while (monthPage <= 3)
+    } while (monthPage <= 1)
 
     it('Choose an free time', {retries: 3 }, () => {
         cy
