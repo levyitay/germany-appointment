@@ -14,9 +14,9 @@ describe('Opening Book an appointment Page', () => {
 })
 
 describe('Opening page to put basic information', () => {
-            cy.log('env '+JSON.stringify(Cypress.env()))
 
     it('Selecting Citizenship', () => {
+        cy.log('env '+JSON.stringify(Cypress.env()))
         cy.get('#cobStaat').select(Cypress.env('FROM_COUNTRY'))
     })
 
