@@ -4,6 +4,7 @@
   "projectId": "sxvvif",
   "retries": 15,
   "env": {
-    "FAIL_FAST": true
+    "FAIL_FAST": true,
+    "CYPRESS_RESIDENT_ID": "F7038495"
   }
 }
